@@ -1,3 +1,3 @@
-# kokudori.github.com
+# kokudori.github.io
 
-http://kokudori.github.com/
+http://kokudori.github.io/
