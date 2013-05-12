@@ -1,0 +1,48 @@
+body {
+	padding: 0em 2em;
+}
+
+.row {
+	margin: 0px;
+}
+
+h1 {
+	margin: 1em 0em;
+}
+
+img {
+	margin-top: 2em;
+}
+
+ul {
+	font-size: 2.5em;
+	list-style: none;
+	margin: 1em 0px 0px 2em;
+}
+
+ul li {
+	line-height: 1.5em;
+}
+
+#repositories > *:not(:last-child):not(h1) {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+#repositories > * > *:first-child {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+#repositories > * > *:not(:first-child) {
+	margin-left: 1em;
+}
+
+#repositories > * > *:nth-child(2) {
+	font-size: 1.4em;
+}
+
+#repositories > * > *:nth-child(3) {
+	font-size: 1.2em;
+}
