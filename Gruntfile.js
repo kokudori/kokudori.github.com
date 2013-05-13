@@ -9,9 +9,6 @@ module.exports = function (grunt) {
 			'app.js': [
 				'components/jquery/jquery.js',
 				'components/bootstrap/docs/assets/js/bootstrap.js',
-				'components/github/lib/underscore-min.js',
-				'components/github/lib/base64.js',
-				'components/github/github.js',
 				'js/index.js'
 			],
 			'app.css': [
