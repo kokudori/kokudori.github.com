@@ -3,9 +3,15 @@ module.exports = function (grunt) {
 
 	grunt.initConfig({
 		concat: {
+			options: {
+				separator: ';'
+			},
 			'app.js': [
 				'components/jquery/jquery.js',
 				'components/bootstrap/docs/assets/js/bootstrap.js',
+				'components/github/lib/underscore-min.js',
+				'components/github/lib/base64.js',
+				'components/github/github.js',
 				'js/index.js'
 			],
 			'app.css': [
@@ -33,5 +39,6 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 
-	grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
+	grunt.registerTask('build', ['jshint', 'concat']);
+	grunt.registerTask('default', ['build', 'uglify']);
 };

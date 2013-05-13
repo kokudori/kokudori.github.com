@@ -2,10 +2,6 @@ body {
 	padding: 0em 2em;
 }
 
-.row {
-	margin: 0px;
-}
-
 h1 {
 	margin: 1em 0em;
 }
@@ -22,6 +18,10 @@ ul {
 
 ul li {
 	line-height: 1.5em;
+}
+
+#repositories {
+	padding-left: 5em;
 }
 
 #repositories > *:not(:last-child):not(h1) {
@@ -45,4 +45,8 @@ ul li {
 
 #repositories > * > *:nth-child(3) {
 	font-size: 1.2em;
+}
+
+#profile {
+	padding-left: 3em;
 }
